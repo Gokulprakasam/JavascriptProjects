@@ -1,0 +1,64 @@
+body {
+  font-family: alata;
+}
+.to-do {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 50px;
+  width: 500px;
+}
+.to-do h1 img {
+  height: 50px;
+  width: 50px;
+}
+.todo-input {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0.8rem;
+  padding-left: 10px;
+}
+.todo-input input {
+  all: unset;
+  width: 69.4%;
+}
+.todo-input button {
+  all: unset;
+  cursor: pointer;
+  background-color: blueviolet;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 0.6rem;
+  margin: 2px;
+}
+.todo-list li {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  all: unset;
+  cursor: pointer;
+  color: blueviolet;
+}
+
+.cancel-btn i {
+  font-size: 20px;
+}
+.checked .child1 .child2 {
+  background: green;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.checked .child1 .child2 + div {
+  text-decoration: line-through;
+}
+.unchecked .child1 .child2 {
+  border: 1px solid green;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
